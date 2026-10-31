@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-label="Auth hero placeholder">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#134e4a"/>
+      <stop offset="50%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#g)"/>
+  <circle cx="900" cy="320" r="180" fill="#14b8a6" opacity="0.15"/>
+  <circle cx="280" cy="1100" r="240" fill="#5eead4" opacity="0.12"/>
+  <text x="80" y="200" fill="#ecfdf5" font-family="system-ui,sans-serif" font-size="48" font-weight="600">Aether</text>
+  <text x="80" y="260" fill="#99f6e4" font-family="system-ui,sans-serif" font-size="22">Replace with hero.webp</text>
+</svg>
