@@ -75,7 +75,7 @@ export function SocialButtons({
       <Button
         type="button"
         variant="outline"
-        className="h-12 rounded-xl border-border/80 bg-card/60 font-medium backdrop-blur-sm hover:bg-card"
+        className="h-12 rounded-xl border-border/80 bg-card/60 font-medium text-foreground backdrop-blur-sm hover:bg-card hover:text-foreground"
         disabled={locked}
         aria-busy={loading === "google"}
         onClick={onGoogle ?? (() => defaultSocial("google"))}
@@ -90,7 +90,7 @@ export function SocialButtons({
       <Button
         type="button"
         variant="outline"
-        className="h-12 rounded-xl border-border/80 bg-card/60 font-medium backdrop-blur-sm hover:bg-card"
+        className="h-12 rounded-xl border-border/80 bg-card/60 font-medium text-foreground backdrop-blur-sm hover:bg-card hover:text-foreground"
         disabled={locked}
         aria-busy={loading === "github"}
         onClick={onGitHub ?? (() => defaultSocial("github"))}

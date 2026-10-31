@@ -94,7 +94,7 @@ function ResetPasswordForm() {
         </Alert>
         <Link
           href="/forgot-password"
-          className="inline-flex h-10 w-full items-center justify-center rounded-xl border border-border bg-background text-sm font-medium hover:bg-muted"
+          className="inline-flex h-10 w-full items-center justify-center rounded-xl border border-border bg-background text-sm font-medium text-foreground hover:bg-muted"
         >
           Request new reset link
         </Link>
@@ -115,7 +115,7 @@ function ResetPasswordForm() {
       >
         <Link
           href="/forgot-password"
-          className="inline-flex h-10 w-full items-center justify-center rounded-xl border border-border bg-background text-sm font-medium hover:bg-muted"
+          className="inline-flex h-10 w-full items-center justify-center rounded-xl border border-border bg-background text-sm font-medium text-foreground hover:bg-muted"
         >
           Request reset link
         </Link>

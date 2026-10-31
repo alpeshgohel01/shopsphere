@@ -110,7 +110,6 @@ function VerifyEmailContent() {
             loading={busy}
             disabled={cooldown > 0}
             variant="outline"
-            className="bg-background"
           >
             {cooldown > 0
               ? `Resend available in ${cooldown}s`

@@ -13,14 +13,21 @@ export function SubmitButton({
   className,
   disabled,
   type = "submit",
+  variant = "default",
   ...props
 }) {
+  const isPrimary = variant === "default";
+
   return (
     <Button
       type={type}
       size="lg"
+      variant={variant}
       className={cn(
-        "h-12 w-full rounded-xl bg-primary text-sm font-semibold tracking-tight text-primary-foreground shadow-none transition-[transform,background-color] hover:bg-primary/90 active:scale-[0.99] disabled:active:scale-100",
+        "h-12 w-full rounded-xl text-sm font-semibold tracking-tight shadow-none transition-[transform,background-color] active:scale-[0.99] disabled:active:scale-100",
+        isPrimary &&
+          "bg-primary text-primary-foreground hover:bg-primary/90",
+        !isPrimary && "text-foreground",
         className,
       )}
       disabled={disabled || loading}
